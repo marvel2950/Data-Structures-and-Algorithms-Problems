@@ -1,0 +1,37 @@
+Time complexity
+
+Time Complexity of an algorithm/program is not the measure of actual time taken for the program to be executed, rather it is the number of times each statement of the logic gets executed to produce the required output.
+
+
+a = 5 
+b = 5
+c = a + b
+print(c)
+
+arr = []
+for i in range(0,n):
+    arr.append(i)
+
+arr = []
+for i in range(0,n):
+    for j in range(0,n):
+        arr.append(j)
+
+arr = []
+for i in range(0,n):
+    for j in range(i+1,n):
+        arr.append(j)
+
+arr = []
+i = 1
+while i<n:
+    arr.append(i)
+    i=i*2
+
+arr = []
+for i in range(0,n):
+   i = 1
+   while i<n:
+      arr.append(i)
+      i=i*2
+

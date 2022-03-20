@@ -1,0 +1,22 @@
+Formal Definition:-
+Dynamic Programming is an algorithmic paradigm that solves a given 
+complex problem by breaking it into subproblems and stores the 
+results of subproblems to avoid computing the same results again.
+
+Practical Definition:-
+Dyanamic Programming is basically "enchanced recursion" 
+or "memorized recursion"
+
+When to use:-
+"Choice+Optimal"
+
+Properties:-
+1) Overlapping Subproblems: 
+2) Optimal Substructure: 
+A given problems has Optimal Substructure Property if 
+optimal solution of the given problem can be obtained 
+by using optimal solutions of its subproblems. 
+
+Approahes:-
+a) Memorization (Top Down) 
+b) Tabulation (Bottom Up)

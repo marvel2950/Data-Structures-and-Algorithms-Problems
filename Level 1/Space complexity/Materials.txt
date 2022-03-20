@@ -1,0 +1,30 @@
+Space complexity
+
+Space complexity is the total amount of extra memory space used by an algorithm/program excluding the space of input values for execution.
+
+
+a = 5 
+b = 5
+c = a + b
+print(c)
+
+arr = []
+for i in range(0,n):
+    arr.append(i)
+
+arr = []
+for i in range(0,n):
+    for j in range(0,n):
+        arr.append(j)
+
+arr = []
+for i in range(0,n):
+    for j in range(i+1,n):
+        arr.append(j)
+
+arr = []
+i = 1
+while i<n:
+    arr.append(i)
+    i=i*2
+
